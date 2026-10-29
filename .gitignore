@@ -1,0 +1,23 @@
+# -----------------------------
+# Terraform
+# -----------------------------
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+*.tfplan
+crash.log
+crash.*.log
+
+
+
+# -----------------------------
+# Allgemein / Editor / OS
+# -----------------------------
+.env
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
